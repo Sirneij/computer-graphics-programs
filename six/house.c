@@ -2,9 +2,7 @@
 // Name: Idogun John Owolabi
 // Matric No: CPE/15/2418
 
-
 #include <graphics.h>
-
 
 void drawHouse()
 {
