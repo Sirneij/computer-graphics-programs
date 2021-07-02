@@ -6,7 +6,7 @@ int main()
     float x, y,dx,dy,steps;  
     int x0, x1, y0, y1;  
     initgraph(&gd, &gm, NULL);  
-    setbkcolor(BLACK);  
+    setbkcolor(BLUE);  
     x0 = 100 , y0 = 200, x1 = 500, y1 = 300;  
     dx = (float)(x1 - x0);  
     dy = (float)(y1 - y0);  
@@ -25,7 +25,7 @@ int main()
     i = 1;  
     while(i<= steps)  
     {  
-        putpixel(x, y, WHITE);  
+        putpixel(x, y, GREEN);  
         x += dx;  
         y += dy;  
         i=i+1;  

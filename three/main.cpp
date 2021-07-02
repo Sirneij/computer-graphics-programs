@@ -32,7 +32,7 @@ void drawcircle(int x0, int y0, int radius)
  
 int main()
 {
-    int gdriver=DETECT, gmode, error, x = 150, y = 150, r = 100;
+    int gdriver=DETECT, gmode, error, x = 200, y = 200, r = 150;
     initgraph(&gdriver, &gmode, NULL);
     drawcircle(x, y, r);
  

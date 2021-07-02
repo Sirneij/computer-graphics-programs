@@ -25,7 +25,7 @@ void drawline(int x0, int y0, int x1, int y1)
 }  
 int main()  
 {  
-    int gdriver=DETECT, gmode, error, x0 = 100, y0 = 100, x1 = 200, y1 = 200;  
+    int gdriver=DETECT, gmode, error, x0 = 200, y0 = 200, x1 = 300, y1 = 300;  
     initgraph(&gdriver, &gmode, NULL);  
     drawline(x0, y0, x1, y1);  
     getch();
